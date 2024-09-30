@@ -1,0 +1,16 @@
+{
+    "name": "Kirjuri - Transcription Worker Container",
+    "image": "jhnis/kirjuri:transcription-worker",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.defaultInterpreterPath": "/usr/bin/python"
+            },
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance"
+            ]
+        }
+    },
+    "runArgs": ["--env-file", ".env"]
+}

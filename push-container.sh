@@ -1,0 +1,1 @@
+docker push jhnis/kirjuri:transcription-worker
